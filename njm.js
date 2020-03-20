@@ -8,12 +8,12 @@ const uri = 'https://api.incontact.com/InContactAuthorizationServer/Token';
 
 let h = new Headers();
 h.append('Accept', 'application/json');
-h.append('Authorization', 'basic TklDRWluQ29udGFjdERFVm9uZTRATklDRWluQ29udGFjdCBJbmMuOk5EYzJNVGMxWW1RdE1tRXhOaTAwT0RjeExUZzNNelF0TldRMk9UUTBNVEZqT0dGaQ==');
+h.append('Authorization', 'basic UGVha1JldGFpbEFQSUBQZWFrUmV0YWlsOjExNA==');
 
 let req = new Request(uri, {
     method: 'POST',
     headers: h,
-    body:JSON.stringify({'username':'jd@c32.com', 'password':'@BlueHens309', 'grant_type':'password'}),
+    body:JSON.stringify({'username':'jamesd@114.com', 'password':'@BlueHens309', 'grant_type':'password'}),
     mode: 'cors'
 });
 
@@ -31,7 +31,7 @@ fetch(req)
 
     
     
-const uri1 = 'https://api-c32.nice-incontact.com/inContactAPI/services/v18.0/queuecallback';
+const uri1 = 'https://api-c4.incontact.com/inContactAPI/services/v18.0/queuecallback';
 
 let h1 = new Headers();
 h1.append('Accept', 'application/json');
@@ -41,7 +41,7 @@ h1.append('Authorization', 'bearer ' + jsonData.access_token)
 let req1 = new Request(uri1, {
     method: 'POST',
     headers: h1,
-    body:JSON.stringify({'phoneNumber':'6316179961', 'skill':'4020551'}),
+    body:JSON.stringify({'phoneNumber':'6316179961', 'skill':'6368531'}),
     mode: 'cors'
 });
 
