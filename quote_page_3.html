@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meda name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Retail</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+<body>
+
+
+    <script src="./njm.js" async> </script>
+    <script src="https://kit.fontawesome.com/59011bf92f.js" crossorigin="anonymous"></script>
+    
+     
+    <script type = "text/javascript" src = 'https://home-c32.nice-incontact.com/inContact/ChatClient/js/embed.min.js'></script>
+    <script type ="text/javascript">
+    
+    icPatronChat.init(
+       
+    {
+        
+        serverHost:'https://home-c32.nice-incontact.com',bus_no:4596619,poc:'b070daab-5b0e-4dbe-872d-09aa6810bc96',params:['test','Last Name','first.last@company.com',555-555-5555]});
+    
+    var dimensions = {bottom:20, right:20, height:500, width:600};
+  
+    </script>
+    
+
+
+      <img src="images/logo-njm.svg" alt="Nature" class="logo">
+
+     
+      
+      <div id ="container" class="container">
+          <p class= "drivers">Drivers</p>
+
+          <hr class="new4">
+         
+          <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="txt-75">
+            <label for="fname">Frank</label>
+          </div>
+
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Middle Initial (optional)</label>
+            </div>
+            <div class="txt-75">
+              <label for="fname">n/a</label>
+            </div>
+            
+
+            
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Last Name</label>
+            </div>
+            <div class="txt-75">
+              <label for="fname">Snyder</label>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Date of Birth</label>
+              </div>
+              <div class="txt-75">
+                <label for="fname">03/01/1974</label>
+              </div>
+
+
+          <form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+
+        <div class="row">
+          <div class="col-25">
+            <label for="gender">Gender</label>
+          </div>
+          <div class="col-75">
+            <select id="gender" name="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="NA">Not Applicable</option>
+            </select>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-25">
+            <label for="MaritalStatus">Marital Status</label>
+          </div>
+          <div class="col-75">
+            <select id="MaritalStatus" name="MaritalStatus">
+              <option value="Male">Maried</option>
+              <option value="Female">Single</option>
+              <option value="NA">Partner</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-25">
+            <label for="LicenseType">License Type</label>
+          </div>
+          <div class="col-75">
+            <select id="LicenseType" name="LicenseType">
+              <option value="LicensePermit">License/Permit</option>
+              <option value="License">License</option>
+              <option value="Permit">Permit</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="State">Driver's License State</label>
+          </div>
+          <div class="col-75">
+            <select id="State" name="state">
+              <option value="PA">PA</option>
+              <option value="NJ">NJ</option>
+              <option value="MD">MD</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-25">
+          <label for="licensenumber">Drivers License Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="licensenumber" name="licensenumber" placeholder="Your License Number">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-100">
+          <label for="licenseAge">Was this driver first licensed at age 16?</label>
+        </div>
+        <input type="radio" id="yes" name="LiceneAge" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="LiceneAge" value="no">
+        <label for="yes">No</label>
+        <hr>
+
+        
+
+      <div class="row">
+        <div class="col-100">
+          <label for="licenseAge">Do you or your spouse own a home?</label>
+        </div>
+        <input type="radio" id="yes" name="LiceneAge" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="LiceneAge" value="no">
+        <label for="yes">No</label>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-100">
+            <label for="licenseAge">Has any driver on this applicaiton had any auto insurance claims within the last 6 years (Do not include drivers who have their won auto insurance)</label>
+          </div>
+          <input type="radio" id="yes" name="LiceneAge" value="yes">
+          <label for="yes">Yes</label>
+  
+          <input type="radio" id="no" name="LiceneAge" value="no">
+          <label for="yes">No</label>
+          <hr>
+  
+          
+        <div class="row">
+          <div class="col-100">
+            <label for="violations">Has this driver had any violations within the last 5 years?</label>
+          </div>
+          <input type="radio" id="yes" name="violations" value="yes">
+          <label for="yes">Yes</label>
+  
+          <input type="radio" id="no" name="violations" value="no">
+          <label for="yes">No</label>
+          <hr>
+  
+             
+        <div class="row">
+          <div class="col-100">
+            <label for="hasuatoinsurnace">Do you currently have auto insurance?</label>
+          </div>
+          <input type="radio" id="yes" name="hasuatoinsurnace" value="yes">
+          <label for="yes">Yes</label>
+  
+          <input type="radio" id="no" name="hasuatoinsurnace" value="no">
+          <label for="yes">No</label>
+          <hr>
+
+          <div class="row">
+            <div class="col-100">
+              <div class ="info-box">
+                <p>Click Add Another Driver if there are additional residents of your household who maintain a driver's license or a permit (including those away at school or with their own insurance) OR click No MOre Drivers to continue.</p>
+              </div>
+            </div>
+            <div class="row">
+            <div class="col-100">
+        <div class="row">
+        </div>
+        </form>
+        <input type="submit" name="submit_id" id="btn_id" value="Submit" onclick="submit_by_id()"/>
+      </div>
+
+    
+
+
+
+</body>
+</html>

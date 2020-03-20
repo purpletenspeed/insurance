@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0059aa;
+  }
+  
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+  
+    .logo {
+      width: 20%;
+      height: auto;
+    }
+
+    .text-example {
+      color: #65aa40;
+      display: flex;
+      align-items: left;
+      justify-content: left;
+  
+    }
+
+    .njmform {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-left: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+      color: #0059aa;
+    }
+    
+
+    hr.new4 {
+      border: 2px solid #65aa40;
+    }
+    
+    input[type=text] {
+      width: 30%;
+      padding: 5px 5px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+
+    select {
+      width: 30%;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 4px;
+      background-color: #f1f1f1;
+    }

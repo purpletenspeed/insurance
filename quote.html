@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meda name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Retail</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+<body>
+
+
+    <script src="./njm.js" async> </script>
+    <script src="https://kit.fontawesome.com/59011bf92f.js" crossorigin="anonymous"></script>
+    
+     
+    <script type = "text/javascript" src = 'https://home-c32.nice-incontact.com/inContact/ChatClient/js/embed.min.js'></script>
+    <script type ="text/javascript">
+    
+    icPatronChat.init(
+       
+    {
+        
+        serverHost:'https://home-c32.nice-incontact.com',bus_no:4596619,poc:'b070daab-5b0e-4dbe-872d-09aa6810bc96',params:[crm,'Last Name','first.last@company.com',555-555-5555]});
+    
+    var dimensions = {bottom:20, right:20, height:500, width:600};
+    crm = localStorage.getItem('crm')
+    </script>
+    
+
+
+      <img src="images/logo-njm.svg" alt="Nature" class="logo">
+
+
+      
+
+    <div class="text-example">
+        <h1>Save Money with NJM Homeowners Insurance!</h1>
+    </div>
+      
+    
+
+
+<form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+    <h2>Name and Address</h2>
+    <label>First Name :</label><input type="text" name="FirstName" id="FirstName" placeholder="" />
+    <label>Middle Initial :</label><input type="text" name="Middle Initial" id="MiddleInitial" placeholder="" />
+    <label>Last Name :</label><input type="text" name="LastName" id="LastName" placeholder="" />
+
+    <label>Suffix: </label><select id="Suffix" name="Suffix">
+      <option value="Select">Select</option>
+      <option value="Jr">Jr</option>
+      <option value="Sr">Sr</option>
+     
+    </select>
+
+    <label>Date of Birth :</label><input type="text" name="DOB" id="DOB" placeholder="mm/dd/yyyy" />
+    <label>PrimaryPhoneNumber :</label><input type="text" name="PrimaryPhoneNumber" id="PrimaryPhoneNumber" placeholder="" />
+    <label>Email :</label><input type="text" name="Email" id="Email" placeholder="" />
+    <label>Address Line 1 :</label><input type="text" name="AddressLine1" id="AddressLine1" placeholder="" />
+    
+   
+    <label>Zip :</label><input type="text" name="Zip" id="Zip" placeholder="" />
+
+    <label>Marital Status: </label><select id="MaritalStatus" name="MaritalStatus">
+      <option value="Select one">Select</option>
+      <option value="Single">Single</option>
+      <option value="Married">Married</option>
+      <option value="Civial Union Partner">CivelUnionPartner</option>
+    </select>
+
+    
+    <label>County: </label><select id="County" name="County">
+      <option value="Atlantic">Select</option>
+      <option value="Bergan">Single</option>
+      <option value="Burlington">Married</option>
+      <option value="Camden">CivelUnionPartner</option>
+      <option value="CapeMay">CapeMay</option>
+     
+      <label>City :</label><input type="text" name="City" id="City" placeholder="" />
+
+    </select>
+
+
+   
+    <input type="button" name="submit_id" id="btn_id" value="Submit by Id" onclick="submit_by_id()"/>
+    </form>
+
+</body>
+</html>
