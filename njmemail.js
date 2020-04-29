@@ -2,7 +2,7 @@
 
 
 
-function submit_by_id() {
+function submit_emailby_id() {
 
     var jd_phone = document.getElementById("licensenumber").value;
 

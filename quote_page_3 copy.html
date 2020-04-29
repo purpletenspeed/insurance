@@ -23,31 +23,6 @@
     var dimensions = {bottom:20, right:20, height:500, width:600};
     </script>
 
-<script>
-  (function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
-  l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
-  l.src='https://surfly-us.com/surfly.js';y.parentNode.insertBefore(l,y);})
-  (window,document,'script','Surfly');
-  
-  var settings = {
-  // Surfly session options can be set here, or at the Company/Plan levels.
-  widget_key: 'f5dbd612033b4e438fa92c0cfb3a4909',
-  private_session: true, // to make sure only logged in agents can join the call
-  };
-  
-  Surfly.init(settings, function(initResult) {
-      if (initResult.success) {
-          // API calls can now be made!
-          if (!Surfly.isInsideSession) {
-              Surfly.button();
-          }
-      }
-      else{
-          console.log("Surfly was unable to initialize properly.")
-      }
-  });
-  </script>
-  
 
 
       <img src="images/logo-njm.svg" alt="Nature" class="logo">

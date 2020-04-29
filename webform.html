@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meda name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJM insurance</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+<body>
+
+
+    <script src="./njmemail.js" async> </script>
+    <script src="https://kit.fontawesome.com/59011bf92f.js" crossorigin="anonymous"></script>
+    
+     
+    <script type = "text/javascript" src = 'https://home-c4.incontact.com/inContact/ChatClient/js/embed.min.js'></script>
+    <script type ="text/javascript">
+    
+    icPatronChat.init(
+       
+    {
+        serverHost:'https://home-c4.incontact.com',bus_no:114,poc:'c1dc5716-ffc8-433c-9ee0-47bae05650bd',params:['chat_phone','Last Name','first.last@company.com',555-555-5555]});
+    var dimensions = {bottom:20, right:20, height:500, width:600};
+    </script>
+
+
+
+      <img src="images/NJMFormHeader.png" alt="Nature" class="topform">
+
+     
+      
+      <div id ="container" class="emailcontainer">
+          <p class= "payment">Contact Us About Your Insurance Bill or Payments</p>
+          <p class= "payment">This page is for questions or comments that can be conveniently addressed through email. For telephone contact, please call 1-800-232-6600. Personal policyholders can call from 7 a.m. to 9 p.m. (Mon.–Fri.) and 8:30 a.m. to 4:30 p.m. (Sat.). Business policyholders can call from 8 a.m. to 5 p.m. (Mon.–Fri.).</p>
+          <p class= "payment">You may also find an answer to your question in our list of FAQs.</p>
+          <p class= "payment">Please provide the following information</p>
+          <p class= "payment">Required Fields</p>
+         
+          
+         
+          <div class="row">
+          <div class="col-25">
+            <label for="fname">Subject</label>
+          </div>
+          <div class="txt-75">
+            <select id="gender" name="gender">
+              <option value="Male">--Select Subject--</option>
+              <option value="Male">Automatic Payments</option>
+              <option value="Female">Make a One Time Payment</option>
+              <option value="NA">Payment and Pyament Methods</option>
+              <option value="NA">Viewing Your Bill</option>
+              <option value="NA">Other Payment Questions</option>
+            </select>
+          </div>
+          </div>
+
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="title">Title</label>
+            </div>
+            <div class="txt-75">
+              <select>
+              <option value="Male">--Select Title--</option>
+              <option value="Male">Mr.</option>
+              <option value="Female">Mrs.</option>
+              <option value="NA">Ms.</option>
+              <option value="NA">Miss</option>
+            </select>
+            </div>
+            </div>
+
+            
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="txt-75">
+              <input type="text" id="name" name="name" placeholder="">
+            </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-25">
+                <label for="policyNumber">Policy Number</label>
+              </div>
+              <div class="txt-75">
+                <input type="text" id="policy" name="policy" placeholder="">
+              </div>
+            </div>              
+            
+            <div class="row">
+                <div class="col-25">
+                  <label for="emaillabel">Email</label>
+                </div>
+                <div class="txt-75">
+                  <input type="text" id="emailvalue" name="emailvalue" placeholder="">
+                </div>
+                </div>
+              
+          <form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+
+     
+            <div class="row">
+              <div class="col-25">
+                <label for="DaytimePhoneLabel">Daytime Telephone</label>
+              </div>
+              <div class="txt-75">
+                <input type="text" id="daytimephonevalue" name="daytimephonevalue" placeholder="">
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="ExtenisionLabel">Extension</label>
+                </div>
+                <div class="txt-75">
+                  <input type="text" id="extensionvalue" name="extensionphonevalue" placeholder="">
+                </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-25">
+                    <label for="ExtenisionLabel">Question/Comment</label>
+                  </div>
+                  <div class="txt-75">
+                  <textarea id = "comment" name="comment" rows="5" cols="10" ></textarea>
+                                      </div>
+                  </div>
+
+  
+        </form>
+        <input type="submit" name="submit_id" id="btn_id" value="Submit" onclick="submit_emailby_id()"/>
+      </div>
+
+    
+
+
+
+</body>
+</html>
